@@ -111,6 +111,7 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-info__item-icon path {
@@ -164,6 +165,8 @@ body {
 }
 
 .skills__text {
+  margin-left: 30px;
+  padding: 30px;
   color: var(--secondary-text-color);
   text-align: justify;
 }
@@ -229,6 +232,10 @@ body {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
+}
+
+.additional-info__education-university {
+  margin-bottom: 25px;
 }
 
 .additional-info__education-university-durability {
